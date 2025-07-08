@@ -4,6 +4,8 @@
 
 Here we provide some of the sample datasets you can use to try out various workflows.
 
+![InfraNodus network graph](https://infranodus.com/images/front/infranodus-network-analysis-tool-app.webp)
+
 ### Keyword Stats
 
 This folder contains the data on Google Search volumes for various keywords. Usually you would analyze the column with the keyword combinations to find recurring patterns and use metadata in other columns for filtering (e.g. search volume, difficulty, location, etc.)
