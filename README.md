@@ -1,4 +1,4 @@
-## Sample Datasets for Data and Text Analysis
+# Sample Datasets for Data and Text Analysis
 
 [InfraNodus](https://infranodus.com) is a AI-powered text network analysis tool. You can use it to reveal patterns in text data.
 
@@ -6,25 +6,25 @@ Here we provide some of the sample datasets you can use to try out various workf
 
 ![InfraNodus network graph](https://infranodus.com/images/front/infranodus-network-analysis-tool-app.webp)
 
-### Keyword Stats
+### Keyword Stats Datasets
 
 This folder contains the data on Google Search volumes for various keywords. Usually you would analyze the column with the keyword combinations to find recurring patterns and use metadata in other columns for filtering (e.g. search volume, difficulty, location, etc.)
 
 - [Keyword Stats / google_us_ai-tools_matching-terms_2025-07-08_20-05-24.csv](keyword-stats/google_us_ai-tools_matching-terms_2025-07-08_20-05-24.csv): Google Search volumes for keywords related to "ai tools". Use the [matching keyword workflow](https://support.noduslabs.com/hc/en-us/articles/21038197757084-Find-the-Search-Terms-that-Relate-to-a-Search-Query-with-Ahrefs-and-InfraNodus) to see how to analyze this file step by step.
 
-### Open-Ended Surveys
+### Open-Ended Survey Datasets
 
 This folder contains samples of open-ended surveys. Usually one or more columns contain the responses while the other columns contain metadata about the survey participants. This metadata can be used for filtering: e.g. what the people from a certain location or background said about a partciular topic or their sentiment.
 
 - [Open Ended Surveys / OSMI-2019-Mental-Health-Tech-Modified.csv](open-ended-surveys/OSMI-2019-Mental-Health-Tech-Modified.csv): Open Source Mental Health Initiative (OSMI) 2019 Mental Health Tech Survey. Use the [open-ended survey workflow](https://support.noduslabs.com/hc/en-us/articles/19917497109020-Qualitative-Analysis-of-Interviews-Open-Ended-Survey-Responses-and-Customer-Feedback) to see how to analyze this file step by step.
 
-### Listings
+### Listing Datasets
 
 This folder contains samples of listings. Such listings would often contain a column with a title and description of a listing as well as severeal other columns with categories which can be used for filtering.
 
 - [Listings / ec_europa_data.csv](listings/ec_europa_data.csv): European Commission Open Data Portal. Use the [listings workflow](https://support.noduslabs.com/hc/en-us/sections/7448975794076-Quick-Start-Recommended-Workflows) to see how to analyze this file step by step.
 
-### Network Graphs
+### Network Graphs Datasets
 
 This folder contains network graph data in Gexf format. Gexf is a type of XML that encodes nodes, relations, and related metadata.
 
@@ -38,15 +38,17 @@ This folder contains network graph data in Gexf format. Gexf is a type of XML th
 
 Also check out our separate archive of [network analysis datasets](https://github.com/infranodus/network-analysis-datasets)
 
-### Knowledge Graphs
+### Knowledge Graph Datasets
 
 This folder contains knowledge graphs that show relations between different types of entities.
 
 - [Knowledge Graphs / similar-sites.md](knowledge-graphs/similar-sites.md): a text file that can be uploaded to InfraNodus to analyze similar sites in SEO sphere
 
-### Databases
+### Datasets Extracted from Databases
 
 This folder contains extracts from various interesting databases. For example, an extract of the research papers titles and abstracts from Arxiv up to 2025.
+
+It also contains a Python script you can freely re-use (MIT license) to filter the long JSON files into shorter versions that can be digested by InfraNodus (up to 10Mb limits).
 
 - [Arxiv Research Papers](databases/arxiv-graph-theory-filtered.json) contains a list of research papers on graphs extracted from [https://www.kaggle.com/datasets/Cornell-University/arxiv](https://www.kaggle.com/datasets/Cornell-University/arxiv). You can generate your own extract from the Arxiv file by using our python script [filter_graph_papers.py](databases/filter_graph_papers.py) — this script will prompt you for the categories and the keywords to look for in that file. Edit the python script if you'd like to filter a file with a different name, otherwise it will look for the file `arxiv-metadata-oai-snapshot.json` which is the default name of the file provided by Cornell university in their Kaggle dataset archive.
 
