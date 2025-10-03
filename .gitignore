@@ -1,2 +1,3 @@
 .DS_Store
 /databases/__pycache__
+databases/arxiv-metadata-oai-snapshot.json
