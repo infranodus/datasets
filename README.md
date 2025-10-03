@@ -10,7 +10,7 @@ Here we provide some of the sample datasets you can use to try out various workf
 
 This folder contains the data on Google Search volumes for various keywords. Usually you would analyze the column with the keyword combinations to find recurring patterns and use metadata in other columns for filtering (e.g. search volume, difficulty, location, etc.)
 
-– [Keyword Stats / google_us_ai-tools_matching-terms_2025-07-08_20-05-24.csv](keyword-stats/google_us_ai-tools_matching-terms_2025-07-08_20-05-24.csv): Google Search volumes for keywords related to "ai tools". Use the [matching keyword workflow](https://support.noduslabs.com/hc/en-us/articles/21038197757084-Find-the-Search-Terms-that-Relate-to-a-Search-Query-with-Ahrefs-and-InfraNodus) to see how to analyze this file step by step.
+- [Keyword Stats / google_us_ai-tools_matching-terms_2025-07-08_20-05-24.csv](keyword-stats/google_us_ai-tools_matching-terms_2025-07-08_20-05-24.csv): Google Search volumes for keywords related to "ai tools". Use the [matching keyword workflow](https://support.noduslabs.com/hc/en-us/articles/21038197757084-Find-the-Search-Terms-that-Relate-to-a-Search-Query-with-Ahrefs-and-InfraNodus) to see how to analyze this file step by step.
 
 ### Open-Ended Surveys
 
