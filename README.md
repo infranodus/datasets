@@ -1,4 +1,4 @@
-## Sample Datasets for Analysis with InfraNodus
+## Sample Datasets for Data and Text Analysis
 
 [InfraNodus](https://infranodus.com) is a AI-powered text network analysis tool. You can use it to reveal patterns in text data.
 
