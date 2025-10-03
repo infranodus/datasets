@@ -28,7 +28,15 @@ This folder contains samples of listings. Such listings would often contain a co
 
 This folder contains network graph data in Gexf format. Gexf is a type of XML that encodes nodes, relations, and related metadata.
 
-- [Network Graphs / diseasosome-diseases.gexf](network-graphs/diseasosome-diseases.gexf): A network graph of diseases and their connections based on the [“Human Disease Network”](https://www.pnas.org/content/104/21/8685/tab-article-info) study, which contains information about the links between the different diseases and associated genes. To simplify, we’ve removed information about the gene associations, keeping only the connections between the different diseases. The diseases are linked together if there’s at least one gene mutation that is correlated with the both diseases. Use the [network graph workflow](https://support.noduslabs.com/hc/en-us/articles/19784723159196-Gephi-Alternative-for-Network-Analysis-and-Visualization-InfraNodus) to see how to analyze this file step by step.
+- [Diseasosome / diseasosome-diseases.gexf](network-graphs/diseasosome-diseases.gexf): A network graph of diseases and their connections based on the [“Human Disease Network”](https://www.pnas.org/content/104/21/8685/tab-article-info) study, which contains information about the links between the different diseases and associated genes. To simplify, we’ve removed information about the gene associations, keeping only the connections between the different diseases. The diseases are linked together if there’s at least one gene mutation that is correlated with the both diseases. Use the [network graph workflow](https://support.noduslabs.com/hc/en-us/articles/19784723159196-Gephi-Alternative-for-Network-Analysis-and-Visualization-InfraNodus) to see how to analyze this file step by step.
+
+- [Related Artists / related-artists.gexf](network-graphs/related-artists.gexf): A network of related classic rock artists extracted from Spotify, provided by [Ifeanyi Idiaye](https://github.com/Ifeanyi55/GephiDatasets). You can see which artists are central to the field (because they are listened to with the most diverse set of artists) and which artists form clusters of interconnected communities.
+
+- [C Elegans / celegans.gexf](network-graphs/celegans.gexf): C. elegans connectome of neurons. C. elegans is a more or less simple organism. Its adult hermaphrodite form has 302 neurons and this network shows how those neurons are connnected, which are the most central ones, and which form clusters.
+
+- [Yeast / yeast.gexf](network-graphs/yeast.gexf): a yeast molecular interaction network that shows which proteins are more central, which form clusters, etc.
+
+Also check out our separate archive of [network analysis datasets](https://github.com/infranodus/network-analysis-datasets)
 
 ### Knowledge Graphs
 
@@ -36,7 +44,7 @@ This folder contains knowledge graphs that show relations between different type
 
 - [Knowledge Graphs / similar-sites.md](knowledge-graphs/similar-sites.md): a text file that can be uploaded to InfraNodus to analyze similar sites in SEO sphere
 
-## Databases
+### Databases
 
 This folder contains extracts from various interesting databases. For example, an extract of the research papers titles and abstracts from Arxiv up to 2025.
 
