@@ -30,6 +30,10 @@ This folder contains network graph data in Gexf format. Gexf is a type of XML th
 
 - [Network Graphs / diseasosome-diseases.gexf](network-graphs/diseasosome-diseases.gexf): A network graph of diseases and their connections based on the [“Human Disease Network”](https://www.pnas.org/content/104/21/8685/tab-article-info) study, which contains information about the links between the different diseases and associated genes. To simplify, we’ve removed information about the gene associations, keeping only the connections between the different diseases. The diseases are linked together if there’s at least one gene mutation that is correlated with the both diseases. Use the [network graph workflow](https://support.noduslabs.com/hc/en-us/articles/19784723159196-Gephi-Alternative-for-Network-Analysis-and-Visualization-InfraNodus) to see how to analyze this file step by step.
 
+### Knowledge Graphs
+
+This folder contains knowledge graphs that show relations between different types of entities.
+
 ## License
 
 All datasets are provided as-is and are subject to the license of the original source.
