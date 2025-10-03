@@ -34,6 +34,14 @@ This folder contains network graph data in Gexf format. Gexf is a type of XML th
 
 This folder contains knowledge graphs that show relations between different types of entities.
 
+- [Knowledge Graphs / similar-sites.md](knowledge-graphs/similar-sites.md): a text file that can be uploaded to InfraNodus to analyze similar sites in SEO sphere
+
+## Databases
+
+This folder contains extracts from various interesting databases. For example, an extract of the research papers titles and abstracts from Arxiv up to 2025.
+
+- [Arxiv Research Papers](databases/arxiv-graph-theory-filtered.json) contains a list of research papers on graphs extracted from [https://www.kaggle.com/datasets/Cornell-University/arxiv](https://www.kaggle.com/datasets/Cornell-University/arxiv). You can generate your own extract from the Arxiv file by using our python script [filter_graph_papers.py](databases/filter_graph_papers.py) — this script will prompt you for the categories and the keywords to look for in that file. Edit the python script if you'd like to filter a file with a different name, otherwise it will look for the file `arxiv-metadata-oai-snapshot.json` which is the default name of the file provided by Cornell university in their Kaggle dataset archive.
+
 ## License
 
 All datasets are provided as-is and are subject to the license of the original source.
