@@ -52,6 +52,8 @@ It also contains a Python script you can freely re-use (MIT license) to filter t
 
 - [Arxiv Research Papers](databases/arxiv-graph-theory-filtered.json) contains a list of research papers on graphs extracted from [https://www.kaggle.com/datasets/Cornell-University/arxiv](https://www.kaggle.com/datasets/Cornell-University/arxiv). You can generate your own extract from the Arxiv file by using our python script [filter_graph_papers.py](databases/filter_graph_papers.py) — this script will prompt you for the categories and the keywords to look for in that file. Edit the python script if you'd like to filter a file with a different name, otherwise it will look for the file `arxiv-metadata-oai-snapshot.json` which is the default name of the file provided by Cornell university in their Kaggle dataset archive.
 
+- [Visual Text Analysis Companies](databases/visual_text_analysis_companies.csv) — this CSV file contains a list of the companies operating in the visual text analysis field, their USPs, strengths and weaknesses, as well as the keywords related to their expertise. Can be used for competitive analysis as described in this tutorial: [https://support.noduslabs.com/hc/en-us/articles/22905603668636-Competitive-Analysis-Mapping-How-to-Visualize-Expertise-Networks-and-Find-Strategic-Gaps](https://support.noduslabs.com/hc/en-us/articles/22905603668636-Competitive-Analysis-Mapping-How-to-Visualize-Expertise-Networks-and-Find-Strategic-Gaps)
+
 ## License
 
 All datasets are provided as-is and are subject to the license of the original source.
