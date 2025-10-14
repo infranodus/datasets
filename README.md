@@ -54,6 +54,8 @@ It also contains a Python script you can freely re-use (MIT license) to filter t
 
 - [Visual Text Analysis Companies](databases/visual_text_analysis_companies.csv) — this CSV file contains a list of the companies operating in the visual text analysis field, their USPs, strengths and weaknesses, as well as the keywords related to their expertise. Can be used for competitive analysis as described in this tutorial: [https://support.noduslabs.com/hc/en-us/articles/22905603668636-Competitive-Analysis-Mapping-How-to-Visualize-Expertise-Networks-and-Find-Strategic-Gaps](https://support.noduslabs.com/hc/en-us/articles/22905603668636-Competitive-Analysis-Mapping-How-to-Visualize-Expertise-Networks-and-Find-Strategic-Gaps)
 
+- [Trump Administration Personnel](databases/trump_administration_personnel.csv) — this CSV file contains information about the individuals that are a part of the president Trump's administration, listing their skills, background, affiliation, etc. Can be used for social network analysis as described in this tutorial: [https://support.noduslabs.com/hc/en-us/articles/22947832720412-Beyond-Organizational-Skills-Matrix-Social-Expertise-Network-Analysis](https://support.noduslabs.com/hc/en-us/articles/22947832720412-Beyond-Organizational-Skills-Matrix-Social-Expertise-Network-Analysis)
+
 ## License
 
 All datasets are provided as-is and are subject to the license of the original source.
